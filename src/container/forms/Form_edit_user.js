@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import { Link } from 'react-router-dom'
 export default class Form_edit_user extends Component {
     render() {
         return (
@@ -9,10 +9,10 @@ export default class Form_edit_user extends Component {
                         <h2>Edit User</h2>
                         <ol className="breadcrumb">
                         <li className="breadcrumb-item">
-                            <a href="index.html">Home</a>
+                            <Link to ="/dashboard">Home</Link>
                         </li>
                         <li className="breadcrumb-item">
-                            <a>Forms</a>
+                            <span>Forms</span>
                         </li>
                         <li className="breadcrumb-item active">
                             <strong>Users</strong>
@@ -28,19 +28,19 @@ export default class Form_edit_user extends Component {
                         <div className="ibox ">
                             <div className="ibox-title">
                             <div className="ibox-tools">
-                                <a className="collapse-link">
+                                <a href="fake_url" className="collapse-link">
                                 <i className="fa fa-chevron-up" />
                                 </a>
-                                <a className="dropdown-toggle" data-toggle="dropdown" href="#">
+                                <a className="dropdown-toggle" data-toggle="dropdown" href="fake_url">
                                 <i className="fa fa-wrench" />
                                 </a>
                                 <ul className="dropdown-menu dropdown-user">
-                                <li><a href="#" className="dropdown-item">Config option 1</a>
+                                <li><a href="fake_url" className="dropdown-item">Config option 1</a>
                                 </li>
-                                <li><a href="#" className="dropdown-item">Config option 2</a>
+                                <li><a href="fake_url" className="dropdown-item">Config option 2</a>
                                 </li>
                                 </ul>
-                                <a className="close-link">
+                                <a href="fa" className="close-link">
                                 <i className="fa fa-times" />
                                 </a>
                             </div>
@@ -48,15 +48,15 @@ export default class Form_edit_user extends Component {
                             <div className="ibox-content">
                             <form method="get">
                                 <div className="form-group  row"><label className="col-sm-2 col-form-label">First Name</label>
-                                <div className="col-sm-10"><input type="text" className="form-control" value="Amudia"/></div>
+                                <div className="col-sm-10"><input type="text" className="form-control" onChange="" defaultValue="Amudia"/></div>
                                 </div>
                                 <div className="hr-line-dashed" />
                                 <div className="form-group  row"><label className="col-sm-2 col-form-label">Last Name</label>
-                                <div className="col-sm-10"><input type="text" className="form-control" value="Kalpa Taruna" /></div>
+                                <div className="col-sm-10"><input type="text" className="form-control" onChange="" defaultValue="Kalpa Taruna" /></div>
                                 </div>
                                 <div className="hr-line-dashed" />
                                 <div className="form-group row"><label className="col-sm-2 col-form-label">Email</label>
-                                <div className="col-sm-10"><input type="email" className="form-control" value="amudia.ktaruna@gmail.com" /> <span className="form-text m-b-none">Email must be valid.</span>
+                                <div className="col-sm-10"><input type="email" className="form-control" onChange="" defaultValue="amudia.ktaruna@gmail.com" /> <span className="form-text m-b-none">Email must be valid.</span>
                                 </div>
                                 </div>
                                 <div className="hr-line-dashed" />

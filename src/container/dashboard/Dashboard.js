@@ -118,10 +118,11 @@ export default class Dashboard extends Component {
                         <div className="ibox-title">
                         <h5>Messages</h5>
                         <div className="ibox-tools">
-                            <a className="collapse-link">
+                        
+                            <a href="fake_url" className="collapse-link">
                             <i className="fa fa-chevron-up" />
                             </a>
-                            <a className="close-link">
+                            <a href="fake_url" className="close-link">
                             <i className="fa fa-times" />
                             </a>
                         </div>
@@ -199,10 +200,10 @@ export default class Dashboard extends Component {
                             <div className="ibox-title">
                             <h5>User project list</h5>
                             <div className="ibox-tools">
-                                <a className="collapse-link">
+                                <a href="fake_url" className="collapse-link">
                                 <i className="fa fa-chevron-up" />
                                 </a>
-                                <a className="close-link">
+                                <a href="fake_url" className="close-link">
                                 <i className="fa fa-times" />
                                 </a>
                             </div>
@@ -270,10 +271,10 @@ export default class Dashboard extends Component {
                             <div className="ibox-title">
                             <h5>Small todo list</h5>
                             <div className="ibox-tools">
-                                <a className="collapse-link">
+                                <a href="fake_url" className="collapse-link">
                                 <i className="fa fa-chevron-up" />
                                 </a>
-                                <a className="close-link">
+                                <a href="fake_url" className="close-link">
                                 <i className="fa fa-times" />
                                 </a>
                             </div>
@@ -281,32 +282,32 @@ export default class Dashboard extends Component {
                             <div className="ibox-content">
                             <ul className="todo-list m-t small-list">
                                 <li>
-                                <a href="#" className="check-link"><i className="fa fa-check-square" /> </a>
+                                <a href="fake_url" className="check-link"><i className="fa fa-check-square" /> </a>
                                 <span className="m-l-xs todo-completed">Buy a milk</span>
                                 </li>
                                 <li>
-                                <a href="#" className="check-link"><i className="fa fa-square-o" /> </a>
+                                <a href="fake_url" className="check-link"><i className="fa fa-square-o" /> </a>
                                 <span className="m-l-xs">Go to shop and find some products.</span>
                                 </li>
                                 <li>
-                                <a href="#" className="check-link"><i className="fa fa-square-o" /> </a>
+                                <a href="fake_url" className="check-link"><i className="fa fa-square-o" /> </a>
                                 <span className="m-l-xs">Send documents to Mike</span>
                                 <small className="label label-primary"><i className="fa fa-clock-o" /> 1 mins</small>
                                 </li>
                                 <li>
-                                <a href="#" className="check-link"><i className="fa fa-square-o" /> </a>
+                                <a href="fake_url" className="check-link"><i className="fa fa-square-o" /> </a>
                                 <span className="m-l-xs">Go to the doctor dr Smith</span>
                                 </li>
                                 <li>
-                                <a href="#" className="check-link"><i className="fa fa-check-square" /> </a>
+                                <a href="fake_url" className="check-link"><i className="fa fa-check-square" /> </a>
                                 <span className="m-l-xs todo-completed">Plan vacation</span>
                                 </li>
                                 <li>
-                                <a href="#" className="check-link"><i className="fa fa-square-o" /> </a>
+                                <a href="fake_url" className="check-link"><i className="fa fa-square-o" /> </a>
                                 <span className="m-l-xs">Create new stuff</span>
                                 </li>
                                 <li>
-                                <a href="#" className="check-link"><i className="fa fa-square-o" /> </a>
+                                <a href="fake_url" className="check-link"><i className="fa fa-square-o" /> </a>
                                 <span className="m-l-xs">Call to Anna for dinner</span>
                                 </li>
                             </ul>
@@ -320,10 +321,10 @@ export default class Dashboard extends Component {
                             <div className="ibox-title">
                             <h5>Transactions worldwide</h5>
                             <div className="ibox-tools">
-                                <a className="collapse-link">
+                                <a href="fake_url" className="collapse-link">
                                 <i className="fa fa-chevron-up" />
                                 </a>
-                                <a className="close-link">
+                                <a href="fake_url" className="close-link">
                                 <i className="fa fa-times" />
                                 </a>
                             </div>

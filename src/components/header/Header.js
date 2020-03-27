@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 export default class Header extends Component {
     render() {
@@ -7,7 +8,7 @@ export default class Header extends Component {
                 <div className="row border-bottom">
                 <nav className="navbar navbar-static-top white-bg" role="navigation" style={{marginBottom: 0}}>
                     <div className="navbar-header">
-                    <a className="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i className="fa fa-bars" /> </a>
+                    <a className="navbar-minimalize minimalize-styl-2 btn btn-primary " href="fake_url"><i className="fa fa-bars" /> </a>
                     <form role="search" className="navbar-form-custom" action="search_results.html">
                         <div className="form-group">
                         <input type="text" placeholder="Search for something..." className="form-control" name="top-search" id="top-search" />
@@ -19,14 +20,14 @@ export default class Header extends Component {
                         <span className="m-r-sm text-muted welcome-message">Welcome to INSPINIA+ Admin Theme.</span>
                     </li>
                     <li className="dropdown">
-                        <a className="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                        <a className="dropdown-toggle count-info" data-toggle="dropdown" href="fake_url">
                         <i className="fa fa-envelope" />  <span className="label label-warning">16</span>
                         </a>
                         <ul className="dropdown-menu dropdown-messages">
                         <li>
                             <div className="dropdown-messages-box">
                             <a className="dropdown-item float-left" href="profile.html">
-                                <img alt="image" className="rounded-circle" src="img/a7.jpg" />
+                                <img alt="User" className="rounded-circle" src="img/a7.jpg" />
                             </a>
                             <div>
                                 <small className="float-right">46h ago</small>
@@ -39,7 +40,7 @@ export default class Header extends Component {
                         <li>
                             <div className="dropdown-messages-box">
                             <a className="dropdown-item float-left" href="profile.html">
-                                <img alt="image" className="rounded-circle" src="img/a4.jpg" />
+                                <img alt="User" className="rounded-circle" src="img/a4.jpg" />
                             </a>
                             <div>
                                 <small className="float-right text-navy">5h ago</small>
@@ -52,7 +53,7 @@ export default class Header extends Component {
                         <li>
                             <div className="dropdown-messages-box">
                             <a className="dropdown-item float-left" href="profile.html">
-                                <img alt="image" className="rounded-circle" src="img/profile.jpg" />
+                                <img alt="User" className="rounded-circle" src="img/profile.jpg" />
                             </a>
                             <div>
                                 <small className="float-right">23h ago</small>
@@ -72,7 +73,7 @@ export default class Header extends Component {
                         </ul>
                     </li>
                     <li className="dropdown">
-                        <a className="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                        <a className="dropdown-toggle count-info" data-toggle="dropdown" href="fake_url">
                         <i className="fa fa-bell" />  <span className="label label-primary">8</span>
                         </a>
                         <ul className="dropdown-menu dropdown-alerts">
@@ -114,12 +115,12 @@ export default class Header extends Component {
                         </ul>
                     </li>
                     <li>
-                        <a href="login.html">
+                        <Link to="/login">
                         <i className="fa fa-sign-out" /> Log out
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a className="right-sidebar-toggle">
+                        <a href="fake_url" className="right-sidebar-toggle">
                         <i className="fa fa-tasks" />
                         </a>
                     </li>

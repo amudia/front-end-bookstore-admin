@@ -10,10 +10,10 @@ export default class Users extends Component {
                         <h2>Data Tables</h2>
                         <ol className="breadcrumb">
                         <li className="breadcrumb-item">
-                            <a href="index.html">Home</a>
+                            <Link to="/dashboard">Home</Link>
                         </li>
                         <li className="breadcrumb-item">
-                            <a>Tables</a>
+                            <span>Tables</span>
                         </li>
                         <li className="breadcrumb-item active">
                             <strong>Users</strong>
@@ -31,19 +31,19 @@ export default class Users extends Component {
                             <div className="ibox-title">
                             <h5>Users Table</h5>
                             <div className="ibox-tools">
-                                <a className="collapse-link">
+                                <a href="fake_url" className="collapse-link">
                                 <i className="fa fa-chevron-up" />
                                 </a>
-                                <a className="dropdown-toggle" data-toggle="dropdown" href="#">
+                                <a className="dropdown-toggle" data-toggle="dropdown" href="fake_url">
                                 <i className="fa fa-wrench" />
                                 </a>
                                 <ul className="dropdown-menu dropdown-user">
-                                <li><a href="#" className="dropdown-item">Config option 1</a>
+                                <li><a href="fake_url" className="dropdown-item">Config option 1</a>
                                 </li>
-                                <li><a href="#" className="dropdown-item">Config option 2</a>
+                                <li><a href="fake_url" className="dropdown-item">Config option 2</a>
                                 </li>
                                 </ul>
-                                <a className="close-link">
+                                <a href="fake_url" className="close-link">
                                 <i className="fa fa-times" />
                                 </a>
                             </div>

@@ -10,8 +10,8 @@ export default class Sidebar extends Component {
                             <ul className="nav metismenu" id="side-menu">
                             <li className="nav-header">
                                 <div className="dropdown profile-element">
-                                <img alt="image" className="rounded-circle" src="img/profile_small.jpg" />
-                                <a data-toggle="dropdown" className="dropdown-toggle" href="#">
+                                <img alt="User" className="rounded-circle" src="img/profile_small.jpg" />
+                                <a data-toggle="dropdown" className="dropdown-toggle" href="fake_url">
                                     <span className="block m-t-xs font-bold">Amudia Kalpa Taruna</span>
                                     <span className="text-muted text-xs block">Admin<b className="caret" /></span>
                                 </a>
@@ -31,7 +31,7 @@ export default class Sidebar extends Component {
                                 <Link to="/dashboard"><i className="fa fa-th-large" /> <span className="nav-label">Dashboard</span></Link>
                             </li>
                             <li>
-                                <a href="#"><i className="fa fa-bar-chart-o" /> <span className="nav-label">Tables</span><span className="fa arrow" /></a>
+                                <a href="fake_url"><i className="fa fa-bar-chart-o" /> <span className="nav-label">Tables</span><span className="fa arrow" /></a>
                                 <ul className="nav nav-second-level collapse">
                                 <li><Link to="/users">Users</Link></li>
                                 <li><Link to="/books">Books</Link></li>
@@ -50,7 +50,7 @@ export default class Sidebar extends Component {
 
 
                             <li>
-                                <a href="#"><i className="fa fa-files-o" /> <span className="nav-label">Other Pages</span><span className="fa arrow" /></a>
+                                <a href="fake_url"><i className="fa fa-files-o" /> <span className="nav-label">Other Pages</span><span className="fa arrow" /></a>
                                 <ul className="nav nav-second-level collapse">
                                 <li><a href="search_results.html">Search results</a></li>
                                 <li><a href="lockscreen.html">Lockscreen</a></li>
@@ -65,27 +65,27 @@ export default class Sidebar extends Component {
                                 </ul>
                             </li>
                             <li>
-                                <a href="#"><i className="fa fa-sitemap" /> <span className="nav-label">Menu Levels </span><span className="fa arrow" /></a>
+                                <a href="fake_url"><i className="fa fa-sitemap" /> <span className="nav-label">Menu Levels </span><span className="fa arrow" /></a>
                                 <ul className="nav nav-second-level collapse">
                                 <li>
-                                    <a href="#" id="damian">Third Level <span className="fa arrow" /></a>
+                                    <a href="fake_url" id="damian">Third Level <span className="fa arrow" /></a>
                                     <ul className="nav nav-third-level">
                                     <li>
-                                        <a href="#">Third Level Item</a>
+                                        <a href="fake_url">Third Level Item</a>
                                     </li>
                                     <li>
-                                        <a href="#">Third Level Item</a>
+                                        <a href="fake_url">Third Level Item</a>
                                     </li>
                                     <li>
-                                        <a href="#">Third Level Item</a>
+                                        <a href="fake_url">Third Level Item</a>
                                     </li>
                                     </ul>
                                 </li>
-                                <li><a href="#">Second Level Item</a></li>
+                                <li><a href="fake_url">Second Level Item</a></li>
                                 <li>
-                                    <a href="#">Second Level Item</a></li>
+                                    <a href="fake_url">Second Level Item</a></li>
                                 <li>
-                                    <a href="#">Second Level Item</a></li>
+                                    <a href="fake_url">Second Level Item</a></li>
                                 </ul>
                             </li>
                             <li>

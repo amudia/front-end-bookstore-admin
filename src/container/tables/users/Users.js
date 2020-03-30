@@ -59,7 +59,7 @@ export default class Users extends Component {
                                     <th>Role</th>
                                     <th>Created On</th>
                                     <th>Updated On</th>
-                                    <th>Action</th>
+                                    <th class="text-center">Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -70,12 +70,15 @@ export default class Users extends Component {
                                     <td>Admin</td>
                                     <td>3/27/2020</td>
                                     <td>3/27/2020</td>
-                                    <td className="center">
-                                        <Link to="/edit_user" class="btn btn-success " type="button"><i class="fa fa-edit"></i>&nbsp;Edit</Link>
-                                        <span> &nbsp;&nbsp;&nbsp;&nbsp; </span>
-                                        <button class="btn btn-danger " type="button"><i class="fa fa-trash"></i>&nbsp;Delete</button>
+                                    <td class="text-center">
+                                        <div class="btn-group">
+                                            <Link to="/edit_user" class="btn-success btn btn-xs">Edit</Link>
+                                            <button class="btn-danger btn btn-xs">Delete</button>
+                                        </div>
                                     </td>
+
                                     </tr>
+
                                 </tbody>
 
                                 </table>

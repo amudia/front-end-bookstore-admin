@@ -73,7 +73,7 @@ export default class Users extends Component {
                                     <td class="text-center">
                                         <div class="btn-group">
                                             <Link to="/edit_user" class="btn-success btn btn-xs">Edit</Link>
-                                            <button class="btn-danger btn btn-xs">Delete</button>
+                                            <button class="btn-danger btn btn-xs">Deletee</button>
                                         </div>
                                     </td>
 
